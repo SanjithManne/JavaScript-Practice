@@ -2,7 +2,8 @@ function rock() {
     const randomNumber = Math.random();
     
     if (randomNumber >= 0 && randomNumber < 1/3) {
-    console.log('Both chose rock!');
+    console.log('Both chose rock');
+    console.log('Its a Draw!');
    }
 
    else if (randomNumber >= 1/3 && randomNumber < 2/3) {
@@ -25,7 +26,8 @@ function paper() {
        }
     
        else if (randomNumber >= 1/3 && randomNumber < 2/3) {
-        console.log('Both chose paper!');
+        console.log('Both chose paper');
+        console.log('Its a Draw!');
        }
     
        else {
@@ -49,6 +51,7 @@ function scissors() {
     
        else {
         console.log('Both chose scissors!');
+        console.log('Its a Draw!');
        }
 }
 
