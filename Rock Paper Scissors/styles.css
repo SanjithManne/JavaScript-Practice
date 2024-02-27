@@ -1,0 +1,12 @@
+body {
+    text-align: center;
+}
+
+p{
+    font-size: larger;
+    font-weight: bold;
+}
+
+button {
+    margin: 1rem;
+}
