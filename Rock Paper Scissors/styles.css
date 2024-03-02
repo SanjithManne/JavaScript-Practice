@@ -3,10 +3,14 @@ body {
 }
 
 p{
-    font-size: larger;
+    font-family: cursive;
+    font-size: 5rem;
     font-weight: bold;
 }
 
 button {
+    font-family: cursive;
     margin: 1rem;
+    padding: 2rem 5rem;
+    font-size: 2rem;
 }
