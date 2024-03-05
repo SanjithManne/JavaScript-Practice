@@ -3,7 +3,6 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css" />
     <title>Objects</title>
 </head>
 <body>
@@ -24,7 +23,27 @@
 
         delete product.newProperty;
         console.log(product);
+
+        const product2 = {
+            name: 'shirt',
+            'delivery-time': '1 day',
+            rating: {
+                stars: 4.5,
+                count: 87
+            },
+            fun: 
+            function function1() {
+                console.log('function inside object');
+            }
+        };
+
+        console.log(product2);
+        console.log(product2.name);
+        console.log(product2['delivery-time']);
+        console.log(product2.rating.stars);
+        console.log(product2['rating']['count']);
+        product2.fun();
+
     </script>
-    <script src="index.js"></script>
 </body>
 </html>
