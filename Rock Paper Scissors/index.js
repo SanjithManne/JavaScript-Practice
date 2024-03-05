@@ -1,7 +1,7 @@
 let computerMove = '';
 let result = '';
 
-score = {
+let score = {
     win: 0,
     loss: 0,
     draw: 0
