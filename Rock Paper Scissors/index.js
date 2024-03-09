@@ -79,7 +79,6 @@ function reset() {
     score.loss = 0;
     score.draw = 0;
     updateScore();
-    localStorage.setItem('score', JSON.stringify(score));
+    localStorage.removeItem('score');
 }
 
-updateScore();
